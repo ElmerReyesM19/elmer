@@ -3,45 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ELMER | UI/UX & Frontend Dev</title>
+  <title>ELMER | UI/UX & Frontend</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>ELMER</h1>
+  <div class="sidebar">
+    <h2>ELMER</h2>
     <nav>
-      <a href="#about">Sobre mí</a>
-      <a href="#projects">Proyectos</a>
-      <a href="#contact">Contacto</a>
+      <a href="#inicio">Inicio</a>
+      <a href="#perfil">Perfil</a>
+      <a href="#trabajos">Trabajos</a>
+      <a href="#contacto">Contacto</a>
     </nav>
-  </header>
+  </div>
 
-  <section id="hero">
-    <h2>Diseñador UI/UX & Desarrollador Frontend</h2>
-    <p>Transformo ideas en experiencias digitales atractivas, funcionales y accesibles.</p>
-    <a href="#projects" class="btn">Ver proyectos</a>
-  </section>
+  <main>
+    <section id="inicio" class="panel hero">
+      <h1>Hola, soy Elmer</h1>
+      <p>Especialista en UI/UX, desarrollador frontend, diseñador de interfaces limpias, accesibles y funcionales.</p>
+    </section>
 
-  <section id="about">
-    <h3>Sobre mí</h3>
-    <p>Soy Elmer, especialista en diseño de interfaces, análisis de experiencia de usuario y desarrollo frontend moderno.</p>
-  </section>
+    <section id="perfil" class="panel">
+      <h2>Perfil Profesional</h2>
+      <p>Soy analista con pasión por el diseño digital centrado en el usuario. Me enfoco en transformar ideas en soluciones efectivas que combinan diseño y código.</p>
+      <ul>
+        <li>Diseño de interfaces (Figma, Sketch)</li>
+        <li>Implementación frontend (HTML, CSS, JS, React)</li>
+        <li>Prototipado y pruebas de usuario</li>
+      </ul>
+    </section>
 
-  <section id="projects">
-    <h3>Proyectos Destacados</h3>
-    <ul>
-      <li><a href="https://github.com/elmerdev/ecommerce-ui" target="_blank">E-commerce UI</a></li>
-      <li><a href="https://github.com/elmerdev/dashboard-kit" target="_blank">Dashboard UI Kit</a></li>
-    </ul>
-  </section>
+    <section id="trabajos" class="panel">
+      <h2>Trabajos Recientes</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>UI Dashboard</h3>
+          <p>Panel modular construido con React + Tailwind. Interfaz limpia para SaaS.</p>
+          <a href="#">Ver en GitHub</a>
+        </div>
+        <div class="card">
+          <h3>E-commerce UX</h3>
+          <p>Diseño de experiencia para app de tienda online. Checkout optimizado.</p>
+          <a href="#">Ver en GitHub</a>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h3>Contacto</h3>
-    <p>Escríbeme a <a href="efreyesm19@gmail.com">elmer.uiux@gmail.com</a> o visita mi <a href="https://github.com/elmerdev" target="_blank">GitHub</a>.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Elmer. Todos los derechos reservados.</p>
-  </footer>
+    <section id="contacto" class="panel">
+      <h2>Contacto</h2>
+      <p>📩 efreyesm19@gmail.com</p>
+      <p>🌐 <a href="https://github.com/elmerdev" target="_blank">GitHub: @elmerdev</a></p>
+    </section>
+  </main>
 </body>
 </html>
+
