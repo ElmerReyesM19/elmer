@@ -2,60 +2,73 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ELMER | UI/UX & Frontend</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELMER | UX/UI Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>ELMER</h1>
-    <nav>
-      <a href="#about">Sobre mí</a>
-      <a href="#projects">Proyectos</a>
-      <a href="#contact">Contacto</a>
-    </nav>
+    <div class="container">
+      <h1>ELMER</h1>
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#perfil">Perfil</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <h2>Diseñador UI/UX & Desarrollador Frontend</h2>
-    <p>Transformo ideas en experiencias digitales únicas, centradas en el usuario y visualmente impactantes.</p>
+  <section class="hero" id="inicio">
+    <div class="container">
+      <h2>Diseñador UI/UX & Desarrollador Frontend</h2>
+      <p>Transformo ideas en experiencias digitales únicas, visualmente impactantes y funcionales.</p>
+    </div>
   </section>
 
-  <section id="about" class="about">
-    <h3>Sobre mí</h3>
-    <p>Soy Elmer, diseñador y analista enfocado en UI/UX. Me especializo en crear interfaces intuitivas y funcionales, con atención al detalle y pasión por la experiencia de usuario.</p>
-    <ul>
-      <li>💡 Prototipos y diseño en Figma</li>
-      <li>💻 Desarrollo en HTML, CSS y React</li>
-      <li>📊 Análisis de usuario y pruebas de usabilidad</li>
-    </ul>
+  <section id="perfil" class="perfil">
+    <div class="container">
+      <h3>Sobre mí</h3>
+      <p>Soy Elmer, diseñador y analista UX/UI con enfoque en productos digitales modernos. Me especializo en interfaces intuitivas y desarrollo frontend centrado en el usuario.</p>
+      <ul>
+        <li>🎨 Diseño en Figma, Sketch</li>
+        <li>💻 Desarrollo HTML, CSS, React</li>
+        <li>🔍 Pruebas de usabilidad</li>
+      </ul>
+    </div>
   </section>
 
-  <section id="projects" class="projects">
-    <h3>Proyectos Destacados</h3>
-    <div class="cards">
+  <section id="proyectos" class="proyectos">
+    <div class="container">
+      <h3>Proyectos Destacados</h3>
+
       <div class="card">
         <h4>E-commerce UX</h4>
-        <p>Checkout optimizado, navegación intuitiva y jerarquía visual clara.</p>
-        <a href="https://github.com/elmerdev/ecommerce-ux" target="_blank">Ver GitHub</a>
+        <p>Checkout optimizado, jerarquía visual clara y navegación intuitiva.</p>
+        <a href="https://github.com/elmerdev/ecommerce-ux" target="_blank">Ver en GitHub</a>
       </div>
+
       <div class="card">
         <h4>Dashboard UI Kit</h4>
-        <p>Sistema modular con componentes en React y diseño responsivo.</p>
-        <a href="https://github.com/elmerdev/dashboard-kit" target="_blank">Ver GitHub</a>
+        <p>Panel de administración modular con diseño responsivo y componentes reutilizables.</p>
+        <a href="https://github.com/elmerdev/dashboard-ui" target="_blank">Ver en GitHub</a>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="contact">
-    <h3>Contacto</h3>
-    <p>✉️ <a href="efreyesm19@gmail.com">elmer.uiux@gmail.com</a></p>
-    <p>🌐 <a href="https://github.com/elmerdev" target="_blank">GitHub: @elmerdev</a></p>
+  <section id="contacto" class="contacto">
+    <div class="container">
+      <h3>Contacto</h3>
+      <p>📧 <a href="mailto:elmer.uiux@gmail.com">efreyesm19@gmail.com</a></p>
+      <p>🌐 <a href="https://github.com/ElmerReyesM19" target="_blank">GitHub: @elmerdev</a></p>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Elmer — Portafolio UI/UX</p>
+    <div class="container">
+      <p>&copy; 2025 Elmer. Todos los derechos reservados.</p>
+    </div>
   </footer>
 </body>
 </html>
