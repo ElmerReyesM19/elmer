@@ -3,61 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ELMER | UI/UX & Frontend Dev</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>ELMER | UI/UX & Frontend</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <div class="layout">
-    <aside class="sidebar">
-      <h1>ELMER</h1>
-      <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#perfil">Perfil</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-    </aside>
 
-    <main class="content">
-      <section id="inicio" class="hero">
-        <h2>Diseñador UI/UX & Desarrollador Frontend</h2>
-        <p>Transformo ideas en experiencias digitales únicas, limpias y funcionales centradas en el usuario.</p>
-      </section>
+  <aside class="sidebar">
+    <div class="logo">ELMER</div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#perfil">Perfil</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </aside>
 
-      <section id="perfil">
-        <h3>Perfil Profesional</h3>
-        <p>Soy Elmer, especialista en UX/UI y desarrollo frontend. Me enfoco en crear productos visualmente impactantes y funcionales.</p>
-        <ul>
-          <li>🎨 Diseño con Figma, Sketch</li>
-          <li>💻 Desarrollo con HTML, CSS, React</li>
-          <li>🧪 Testeo de interfaces y prototipado</li>
-        </ul>
-      </section>
+  <main class="content">
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <img src="assets/img/elmer.jpg" alt="Foto de Elmer" class="profile-img" />
+      <div>
+        <h1>Diseñador UI/UX & Frontend</h1>
+        <p>Transformo ideas en experiencias visualmente impactantes y funcionales.</p>
+        <a href="#contacto" class="btn">Contáctame</a>
+      </div>
+    </section>
 
-      <section id="proyectos">
-        <h3>Proyectos</h3>
+    <!-- PERFIL -->
+    <section id="perfil" class="section fade-in">
+      <h2>Perfil Profesional</h2>
+      <p>Especialista en diseño de interfaces limpias, funcionales y accesibles. Mi enfoque es UX/UI, desarrollando productos digitales modernos.</p>
+      <ul>
+        <li>🎨 Diseño con Figma y Sketch</li>
+        <li>💻 Desarrollo HTML, CSS, React</li>
+        <li>🧪 Pruebas de usabilidad</li>
+      </ul>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section fade-in">
+      <h2>Proyectos Destacados</h2>
+      <div class="projects">
         <div class="card">
-          <h4>E-commerce UX</h4>
-          <p>Diseño de checkout para tienda online. Optimizado para conversión.</p>
-          <a href="https://github.com/elmerdev/ecommerce-ux" target="_blank">Ver en GitHub</a>
+          <h3>E-commerce UI</h3>
+          <p>Diseño de checkout para app online. Optimizado para conversión.</p>
+          <a href="https://github.com/elmerdev/ecommerce-ux" target="_blank" class="btn-outline">Ver en GitHub</a>
         </div>
         <div class="card">
-          <h4>Dashboard Modular</h4>
-          <p>Interfaz adaptable construida en React + Tailwind para SaaS.</p>
-          <a href="https://github.com/elmerdev/dashboard-kit" target="_blank">Ver en GitHub</a>
+          <h3>Dashboard Modular</h3>
+          <p>Panel adaptable construido en React + Tailwind para SaaS.</p>
+          <a href="https://github.com/elmerdev/dashboard-ui" target="_blank" class="btn-outline">Ver en GitHub</a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="contacto">
-        <h3>Contacto</h3>
-        <p>Escríbeme a <a href="mailto:elmer.uiux@gmail.com">efreyesm19@gmail.com</a> o visita mi <a href="https://github.com/ElmerReyesM19" target="_blank">GitHub</a></p>
-        <footer>&copy; 2025 ELMER — Todos los derechos reservados.</footer>
-      </section>
-    </main>
-  </div>
+    <!-- CONTACTO -->
+    <section id="contacto" class="section fade-in">
+      <h2>Contacto</h2>
+      <p>¿Quieres colaborar o tienes una idea de proyecto?</p>
+      <p>📬 <a href="mailto:efreyesm19@gmail.com">efreyesm19@gmail.com</a></p>
+      <p>💼 <a href="https://github.com/elmerdev" target="_blank">GitHub: @elmerdev</a></p>
+    </section>
+  </main>
+
 </body>
 </html>
+
 
 
 
