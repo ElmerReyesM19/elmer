@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ELMER | UX/UI Portfolio</title>
+  <title>ELMER | UI/UX & Frontend Dev</title>
   <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="container">
+  <div class="layout">
+    <aside class="sidebar">
       <h1>ELMER</h1>
       <nav>
         <a href="#inicio">Inicio</a>
@@ -17,60 +17,47 @@
         <a href="#proyectos">Proyectos</a>
         <a href="#contacto">Contacto</a>
       </nav>
-    </div>
-  </header>
+    </aside>
 
-  <section class="hero" id="inicio">
-    <div class="container">
-      <h2>Diseñador UI/UX & Desarrollador Frontend</h2>
-      <p>Transformo ideas en experiencias digitales únicas, visualmente impactantes y funcionales.</p>
-    </div>
-  </section>
+    <main class="content">
+      <section id="inicio" class="hero">
+        <h2>Diseñador UI/UX & Desarrollador Frontend</h2>
+        <p>Transformo ideas en experiencias digitales únicas, limpias y funcionales centradas en el usuario.</p>
+      </section>
 
-  <section id="perfil" class="perfil">
-    <div class="container">
-      <h3>Sobre mí</h3>
-      <p>Soy Elmer, diseñador y analista UX/UI con enfoque en productos digitales modernos. Me especializo en interfaces intuitivas y desarrollo frontend centrado en el usuario.</p>
-      <ul>
-        <li>🎨 Diseño en Figma, Sketch</li>
-        <li>💻 Desarrollo HTML, CSS, React</li>
-        <li>🔍 Pruebas de usabilidad</li>
-      </ul>
-    </div>
-  </section>
+      <section id="perfil">
+        <h3>Perfil Profesional</h3>
+        <p>Soy Elmer, especialista en UX/UI y desarrollo frontend. Me enfoco en crear productos visualmente impactantes y funcionales.</p>
+        <ul>
+          <li>🎨 Diseño con Figma, Sketch</li>
+          <li>💻 Desarrollo con HTML, CSS, React</li>
+          <li>🧪 Testeo de interfaces y prototipado</li>
+        </ul>
+      </section>
 
-  <section id="proyectos" class="proyectos">
-    <div class="container">
-      <h3>Proyectos Destacados</h3>
+      <section id="proyectos">
+        <h3>Proyectos</h3>
+        <div class="card">
+          <h4>E-commerce UX</h4>
+          <p>Diseño de checkout para tienda online. Optimizado para conversión.</p>
+          <a href="https://github.com/elmerdev/ecommerce-ux" target="_blank">Ver en GitHub</a>
+        </div>
+        <div class="card">
+          <h4>Dashboard Modular</h4>
+          <p>Interfaz adaptable construida en React + Tailwind para SaaS.</p>
+          <a href="https://github.com/elmerdev/dashboard-kit" target="_blank">Ver en GitHub</a>
+        </div>
+      </section>
 
-      <div class="card">
-        <h4>E-commerce UX</h4>
-        <p>Checkout optimizado, jerarquía visual clara y navegación intuitiva.</p>
-        <a href="https://github.com/elmerdev/ecommerce-ux" target="_blank">Ver en GitHub</a>
-      </div>
-
-      <div class="card">
-        <h4>Dashboard UI Kit</h4>
-        <p>Panel de administración modular con diseño responsivo y componentes reutilizables.</p>
-        <a href="https://github.com/elmerdev/dashboard-ui" target="_blank">Ver en GitHub</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="contacto" class="contacto">
-    <div class="container">
-      <h3>Contacto</h3>
-      <p>📧 <a href="mailto:elmer.uiux@gmail.com">efreyesm19@gmail.com</a></p>
-      <p>🌐 <a href="https://github.com/ElmerReyesM19" target="_blank">GitHub: @elmerdev</a></p>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Elmer. Todos los derechos reservados.</p>
-    </div>
-  </footer>
+      <section id="contacto">
+        <h3>Contacto</h3>
+        <p>Escríbeme a <a href="mailto:elmer.uiux@gmail.com">efreyesm19@gmail.com</a> o visita mi <a href="https://github.com/ElmerReyesM19" target="_blank">GitHub</a></p>
+        <footer>&copy; 2025 ELMER — Todos los derechos reservados.</footer>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
+
 
 
