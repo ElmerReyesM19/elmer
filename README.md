@@ -1,12 +1,13 @@
-# ELMER — Portafolio UI/UX & Frontend
+# Portafolio Profesional – Elmer
 
-Este es un portafolio profesional para presentar mi trabajo como diseñador de experiencia de usuario y desarrollador frontend moderno.
+Este es mi portafolio como Diseñador UI/UX y Desarrollador Frontend.  
+El diseño se basa en una estructura moderna, con enfoque en usabilidad y estética profesional.
 
-### 📌 Características
+## Secciones
+- Sobre mí
+- Proyectos Destacados
+- Contacto
 
-- Diseño con navegación lateral tipo dashboard
-- Layout tipo aplicación web (como un sistema real)
-- Responsive y minimalista
-- Sección de perfil, proyectos y contacto
+Desarrollado en HTML y CSS puro, y desplegado vía GitHub Pages.
 
-🚀 Publicado en: [elmerreyesm19.github.io/elmer](https://elmerreyesm19.github.io/elmer)
+🔗 https://elmerreyesm19.github.io/elmer
